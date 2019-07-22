@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pomodoro_clock_v001/static/css/main.2cce8147.chunk.css",
+    "main.js": "/pomodoro_clock_v001/static/js/main.ed4f4d00.chunk.js",
+    "main.js.map": "/pomodoro_clock_v001/static/js/main.ed4f4d00.chunk.js.map",
+    "runtime~main.js": "/pomodoro_clock_v001/static/js/runtime~main.c65dc88b.js",
+    "runtime~main.js.map": "/pomodoro_clock_v001/static/js/runtime~main.c65dc88b.js.map",
+    "static/js/2.b41502e9.chunk.js": "/pomodoro_clock_v001/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/pomodoro_clock_v001/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/pomodoro_clock_v001/index.html",
+    "precache-manifest.ca553b77e5d4f00ab55d3491d1e217de.js": "/pomodoro_clock_v001/precache-manifest.ca553b77e5d4f00ab55d3491d1e217de.js",
+    "service-worker.js": "/pomodoro_clock_v001/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/pomodoro_clock_v001/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/pomodoro_clock_v001/static/media/logo.5d5d9eef.svg"
+  }
+}
