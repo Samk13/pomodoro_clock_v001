@@ -112,6 +112,12 @@ export default class Pomodoro extends React.Component {
     return (
 
       <div className="container-controls">
+            {/*----------------------------------------------------Controls-- */}
+            <Controls
+          active={this.state.active}
+          handleReset={this.handleReset}
+          hanlePlayPause={this.handlePlayPause}
+        />
 
         
         {/*------------------------------------------------------Timer -- */}
@@ -135,12 +141,7 @@ export default class Pomodoro extends React.Component {
             handleClick={this.handleSetTimers}
           />
         </div>
-        {/*----------------------------------------------------Controls-- */}
-        <Controls
-          active={this.state.active}
-          handleReset={this.handleReset}
-          hanlePlayPause={this.handlePlayPause}
-        />
+    
         {/*-------------------------------------------------------Audio-- */}
 
         <audio 
