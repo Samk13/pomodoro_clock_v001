@@ -5,8 +5,11 @@
   "homepage": "https://Samk13.github.io/pomodoro_clock_v001",
   "dependencies": {
     "gh-pages": "^2.0.1",
+    "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-github-corner": "^2.3.0",
+    "react-moment": "^0.9.2",
     "react-scripts": "3.0.1"
   },
   "scripts": {
