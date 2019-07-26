@@ -113,20 +113,7 @@ export default class Pomodoro extends React.Component {
 
       <div className="container-controls">
 
-        <div className="settings">
-         {/*-------------------------------------------------------Break- */}
-          <SetTimer
-            type="break"
-            value={this.state.breakValue}
-            handleClick={this.handleSetTimers}
-          />
-          {/*---------------------------------------------------Session-- */}
-          <SetTimer
-            type="session"
-            value={this.state.sessionValue}
-            handleClick={this.handleSetTimers}
-          />
-        </div>
+        
         {/*------------------------------------------------------Timer -- */}
         <Timer
           
@@ -134,6 +121,20 @@ export default class Pomodoro extends React.Component {
           time={moment(this.state.time).format("mm.ss")}
           id="time-left"
         />
+        <div className="settings">
+         {/*-------------------------------------------------------Break- */}
+          <SetTimer
+            type="break"
+            value={this.state.breakValue + ' Minutes'}
+            handleClick={this.handleSetTimers}
+          />
+          {/*---------------------------------------------------Session-- */}
+          <SetTimer
+            type="session"
+            value={this.state.sessionValue + ' Minutes'}
+            handleClick={this.handleSetTimers}
+          />
+        </div>
         {/*----------------------------------------------------Controls-- */}
         <Controls
           active={this.state.active}
